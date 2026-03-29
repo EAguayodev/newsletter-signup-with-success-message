@@ -15,7 +15,7 @@
 ### Links
 
 - Solution URL: [Github](https://github.com/EAguayodev?tab=repositories)
-- Live Site URL: [Vercel](https://frontendmentor-newsletter-sign-up-with-success-message.vercel.app/)
+- Live Site URL: [Netlify](https://news-signup-success.netlify.app/)
 
 ## My process
 Objective: Implement an efficient and user-friendly process for capturing email addresses through a newsletter sign-up form, and display a success message upon successful submission.
@@ -61,14 +61,12 @@ Upon entering a valid email address and clicking the subscribe button, the user 
 
 ### What I learned
 
-
-
 ```html
   <picture>
-        <source media="(min-width: 640px;)" alt="Desktop" srcset="assets/images/illustration-sign-up-desktop.svg">
-        <source media="(min-width: 400px;)" alt="Mobile" srcset="assets/images/illustration-sign-up-mobile.svg">
-        <img class="illustration" src="assets/images/illustration-sign-up-desktop.svg">
-      </picture>
+      <source media="(min-width: 640px;)" alt="Desktop" srcset="assets/images/illustration-sign-up-desktop.svg">
+      <source media="(min-width: 400px;)" alt="Mobile" srcset="assets/images/illustration-sign-up-mobile.svg">
+      <img class="illustration" src="assets/images/illustration-sign-up-desktop.svg">
+  </picture>
 ```
 ```css
 .container {
@@ -132,10 +130,8 @@ Implement and test the menu in various browsers and devices to ensure compatibil
 
 ## Author
 
-- Website - [Eric Aguayo](https://www.ericaguayo.com)
 - Frontend Mentor - [@EAguayodev](https://www.frontendmentor.io/profile/EAguayodev)
-- Twitter - [@eric_emaildev](https://www.twitter.com/eric_emaildev)
 
 ## Acknowledgments
 
-Want to give credit to the author Asif Mughal codehim.com for giving me inspiration on how to tackle using javascript to achieve displaying the success window after successful email address submission.
+Want to give credit to the author Asif Mughal for giving me inspiration on how to tackle using javascript to achieve displaying the success window after successful email address submission.
